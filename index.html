@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simples</title>
+    <!--Style.css-->
+    <link rel="stylesheet" href="style.css">
+    <!--Fonte Roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <section class="output">
+            <div class="previous-operand" id="previousOperand">
+                
+            </div>
+            <div class="current-operand" id="currentOperand">
+                
+            </div>
+        </section>
+        <section class="buttons-container">
+            <div class="flex-container">
+                <button class="span-two" id="allClearButton">AC</button>
+                <button id="deleteButton">DEL</button>
+                <button class="span-green" id="operationButtons">÷</button>
+            </div>
+    
+            <div class="flex-container">
+                <button id="numberButtons">1</button>
+                <button id="numberButtons">2</button>
+                <button id="numberButtons">3</button>
+                <button class="span-green" id="operationButtons">*</button>
+            </div>
+    
+            <div class="flex-container">
+                <button id="numberButtons">4</button>
+                <button id="numberButtons">5</button>
+                <button id="numberButtons">6</button>
+                <button class="span-green" id="operationButtons">+</button>
+            </div>
+    
+            <div class="flex-container">
+                <button id="numberButtons">7</button>
+                <button id="numberButtons">8</button>
+                <button id="numberButtons">9</button>
+                <button class="span-green" id="operationButtons">-</button>
+            </div>
+    
+            <div class="flex-container">
+                <button class="span-two" id="numberButtons">.</button>
+                <button id="numberButtons">0</button>
+                <button class="span-green" id="equalsButton">=</button>
+            </div>
+        </section>
+        
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
