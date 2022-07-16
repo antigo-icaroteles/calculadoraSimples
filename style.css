@@ -9,7 +9,8 @@ body{
 }
 
 .output{
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     min-height: 100px;
     background-color: #222;
     display: flex;
@@ -43,8 +44,13 @@ body{
     display: flex;
 }
 
+.buttons-container{
+    width: 100%;
+    max-width: 400px;
+}
+
 button{
-    width: 100px;
+    width: 25%;
     height: 100px;
     background-color: black;
     color: white;
@@ -61,7 +67,7 @@ button:hover{
 }
 
 .span-two{
-    width: 200px;
+    width: 50%;
 }
 
 .span-green{
